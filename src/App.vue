@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+  <div class="app-viewport" id="file-list">
+    <md-toolbar>
+      <h1 class="md-title">Vips Tiendas</h1>
+    </md-toolbar>
+    <tiendas-lista></tiendas-lista>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+// import Hello from './components/Hello'
 
 export default {
   name: 'app',
   components: {
-    Hello
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+
+navbar{
+  background: #3f3f3f;
 }
+
+
 </style>
